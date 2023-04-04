@@ -12,7 +12,7 @@ document.getElementById("push").onclick = function addElement() {
     </div>
     `;
 
-    let elementoAttuale = document.getElementsByClassName(".deletebtn");
+    let elementoAttuale = document.getElementsByClassName("deletebtn");
     for (let i = 0; i < elementoAttuale.length; i++) {
       elementoAttuale[i].onclick = function deleteElement() {
         this.parentNode.remove();

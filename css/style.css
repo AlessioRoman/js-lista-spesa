@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-main {
+  background-color: #b3005e;
+}
+
+.bg-nav {
+  background-color: #060047;
+}
+
+.bg-mainAlt {
+  background-color: #e90064;
+}
+
+.bg-clear {
+  background-color: #ff5f9e;
+}
